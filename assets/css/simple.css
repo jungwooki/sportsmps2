@@ -13,3 +13,6 @@ body.notice-open .compact-dock{visibility:hidden}
 
 /* Separate glass action menu from page navigation. */
 :root{--bottom:64px}.compact-dock .bottom-nav{min-height:60px}.floating-actions{width:190px;bottom:calc(72px + env(safe-area-inset-bottom));right:max(14px,calc((100vw - 520px)/2 + 14px))}.floating-actions>.sample-fab{min-height:42px;font-size:12px;padding:9px 10px}.floating-actions .booking-action,.floating-actions .price-action{min-height:40px;font-size:12px}.floating-secondary{min-height:40px}body.notice-open .floating-actions,body.samples-open .floating-actions,body.quick-open .floating-actions{display:none}.page,.page.cover{padding-bottom:210px}@media(max-width:359px){.floating-actions{width:176px;right:12px}.floating-actions>.sample-fab{font-size:11px}.floating-actions .booking-action,.floating-actions .price-action{font-size:11px}}
+
+/* Page 02 puts the explainer video first. */
+.shorts-page .shorts-player{width:min(100%,210px,calc((100svh - 430px)*.5625));min-width:140px;margin:24px auto 0;box-shadow:0 12px 32px #0002}.shorts-page .shorts-youtube{font-size:11px;margin-top:10px;min-height:36px}.shorts-page .lead{font-size:13px}@media(max-height:650px){.shorts-page .shorts-player{min-width:120px}}
